@@ -1,0 +1,39 @@
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# OS/editor artifacts
+.DS_Store
+._*
+*.swp
+*.tmp
+
+# External dependency checkout and local native build
+ASTER/
+Afresh/bin/
+
+# Runtime outputs and logs
+results/
+scratch/
+*.log
+*.out
+*.err
+*.stdout
+*.stderr
+*.time
+
+# Scientific and generated data products
+*.hal
+*.maf
+*.fa
+*.fasta
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.mat
+*.dat
+*.db
