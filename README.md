@@ -28,8 +28,9 @@ that a locus is paralogous.
 ASTER is an external dependency and is not included in this repository. Use a
 compatible upstream checkout from <https://github.com/chaoszhang/ASTER>.
 Afresh's native adapter includes ASTER headers and uses its tree and quartet
-coloring implementations. The ASTER checkout's license and notices must be
-reviewed together with the Afresh licensing terms before redistribution.
+coloring implementations. This repository is released under the GNU Affero
+General Public License version 3, matching ASTER's license. See `LICENSE` and
+`THIRD_PARTY.md` for the license text and dependency notices.
 
 ## Build
 
@@ -103,9 +104,8 @@ python -m unittest discover -s tests -p 'test_*.py' -v
 Some native integration tests require `Afresh/bin/iils-statistics`. Tests do
 not install dependencies or download ASTER automatically.
 
-## License Status
+## License
 
-The repository-wide license has not yet been selected. Afresh's native source
-includes ASTER headers, whose upstream checkout currently carries the GNU
-Affero General Public License version 3. Add the project's license and a
-complete third-party notice before publishing a distributable release.
+Afresh is distributed under the GNU Affero General Public License version 3.
+See `LICENSE` for the full terms. ASTER is an external dependency and is not
+vendored here. Its source and binaries retain their own upstream notices.
